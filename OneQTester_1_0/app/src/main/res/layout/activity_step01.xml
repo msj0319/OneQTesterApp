@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/step0_2" android:orientation="vertical">
+
+    <TextView
+            android:text="본 앱은 터치, 불량화소, 위치, 마이크,\n스피커, 근접센서를 테스트 하는 앱으로\n다음과 같은 단계로 구성되어 있습니다"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_weight="0"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginTop="150dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="0" android:id="@+id/step0_2_2">
+        <Button
+                android:text="Next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/button2" android:layout_weight="0"
+                android:layout_gravity="bottom" android:layout_marginLeft="150dp" android:layout_marginRight="150dp"
+                android:layout_marginBottom="100dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textSize="24sp"/>
+    </LinearLayout>
+</LinearLayout>

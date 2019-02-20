@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:id="@+id/rgb_2_l1">
+
+    <TextView
+            android:text="불량화소 테스트는 R,G,B 색상을\n차례대로 화면에 띄워줍니다."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/rgb_2_t1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textAlignment="center"
+            android:textSize="26sp" android:layout_marginTop="150dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/rgb_2_l2">
+        <Button
+                android:text="Next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/rgb_2_b1"
+                android:layout_gravity="bottom" android:layout_marginLeft="150dp" android:layout_marginRight="150dp"
+                android:layout_marginBottom="100dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textSize="24sp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+              android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/final_1_l1">
+
+    <TextView
+            android:text="테스트 결과"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/final_1_t1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textSize="40sp"
+            android:layout_marginTop="100dp" android:gravity="center"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/final_1_l2">
+        <TextView
+                android:text="터치"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content" android:id="@+id/final_1_t2" android:layout_weight="1"
+                android:layout_marginTop="50dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textSize="30sp"
+                android:gravity="center_horizontal"/>
+        <TextView
+                android:text="--"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/final_1_t3" android:layout_weight="1"
+                android:textSize="30sp" android:layout_marginTop="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/final_1_l3">
+        <TextView
+                android:text="화소"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content" android:id="@+id/final_1_t4" android:layout_weight="1"
+                android:layout_marginTop="25dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textSize="30sp"
+                android:gravity="center_horizontal"/>
+        <TextView
+                android:text="--"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/final_1_t5" android:layout_weight="1"
+                android:textSize="30sp" android:layout_marginTop="25dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/final_1_l4">
+        <TextView
+                android:text="마이크/스피커"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content" android:id="@+id/final_1_t6" android:layout_weight="1"
+                android:layout_marginTop="25dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textSize="30sp"
+                android:gravity="center_horizontal"/>
+        <TextView
+                android:text="--"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/final_1_t7" android:layout_weight="1"
+                android:textSize="30sp" android:layout_marginTop="25dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/final_1_l5">
+        <TextView
+                android:text="근접 센서"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content" android:id="@+id/final_1_t8" android:layout_weight="1"
+                android:layout_marginTop="25dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textSize="30sp"
+                android:gravity="center_horizontal"/>
+        <TextView
+                android:text="--"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/final_1_t9" android:layout_weight="1"
+                android:textSize="30sp" android:layout_marginTop="25dp"/>
+    </LinearLayout>
+</LinearLayout>

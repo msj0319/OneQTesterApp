@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/step0_3">
+
+    <TextView
+            android:text="1단계 : 터치 테스트"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/step0_text_1" android:layout_weight="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:gravity="center_vertical|center_horizontal" android:layout_marginTop="150dp"
+            android:textSize="26sp"/>
+    <TextView
+            android:text="2단계 : 불량화소 테스트"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/step0_text_2" android:layout_weight="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:gravity="center_vertical|center_horizontal" android:layout_marginTop="10dp"
+            android:textSize="26sp"/>
+    <TextView
+            android:text="3단계 : 마이크 스피커 테스트"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/step0_text_3" android:layout_weight="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:gravity="center_vertical|center_horizontal" android:layout_marginTop="10dp"
+            android:textSize="26sp"/>
+    <TextView
+            android:text="4단계 : 근접센서 테스트"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/step0_text_4" android:layout_weight="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:gravity="center_vertical|center_horizontal" android:layout_marginTop="10dp"
+            android:textSize="26sp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="0" android:id="@+id/step_0_3_2">
+        <Button
+                android:text="Next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/button3" android:layout_weight="0"
+                android:layout_gravity="bottom" android:layout_marginLeft="150dp" android:layout_marginRight="150dp"
+                android:layout_marginBottom="100dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textSize="24sp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:id="@+id/step4_3_l1" android:orientation="vertical">
+
+    <TextView
+            android:text="손을 센서 위에서\n올렸다 내렸다 반복해주세요\n수치가 바뀌면 정상입니다."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/step4_3_t1" android:layout_weight="0"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:padding="10dp"
+            android:textSize="24sp" android:layout_marginTop="150dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="0" android:id="@+id/step4_3_l2">
+        <Button
+                android:text="NEXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/step4_3_b1" android:layout_weight="0"
+                android:layout_gravity="bottom" android:layout_marginLeft="150dp" android:layout_marginRight="150dp"
+                android:layout_marginBottom="100dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textSize="24sp"/>
+    </LinearLayout>
+</LinearLayout>

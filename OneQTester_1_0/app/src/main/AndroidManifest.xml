@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.techtown.oneqtester_1_0">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".dataBase">
+        </activity>
+        <activity android:name=".finalResult">
+        </activity>
+        <activity android:name=".rgb09">
+        </activity>
+        <activity android:name=".rgb08">
+        </activity>
+        <activity android:name=".rgb07">
+        </activity>
+        <activity android:name=".rgb06">
+        </activity>
+        <activity android:name=".proximity01">
+        </activity>
+        <activity android:name=".proximity06">
+        </activity>
+        <activity android:name=".proximity05">
+        </activity>
+        <activity android:name=".proximity04">
+        </activity>
+        <activity android:name=".proximity03">
+        </activity>
+        <activity android:name=".proximity02">
+        </activity>
+        <activity android:name=".record04">
+        </activity>
+        <activity android:name=".record03">
+        </activity>
+        <activity android:name=".record02">
+        </activity>
+        <activity android:name=".record01">
+        </activity>
+        <activity android:name=".rgb05">
+        </activity>
+        <activity android:name=".rgb04">
+        </activity>
+        <activity android:name=".rgb03">
+        </activity>
+        <activity android:name=".rgb02">
+        </activity>
+        <activity android:name=".rgb01">
+        </activity>
+        <activity android:name=".touch04">
+        </activity>
+        <activity android:name=".touch03">
+        </activity>
+        <activity android:name=".touch02">
+        </activity>
+        <activity android:name=".touch01">
+        </activity>
+        <activity android:name=".step03">
+        </activity>
+        <activity android:name=".step02">
+        </activity>
+        <activity android:name=".step01">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data
+                android:name="preloaded_fonts"
+                android:resource="@array/preloaded_fonts"/>
+    </application>
+
+</manifest>

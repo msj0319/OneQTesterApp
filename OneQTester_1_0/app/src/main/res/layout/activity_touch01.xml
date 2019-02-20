@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" android:id="@+id/touch_1_l1">
+
+    <TextView
+            android:text="1. 터치 테스트"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/touch_1_t1"
+            android:paddingLeft="110dp" android:layout_marginTop="150dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textSize="30sp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/touch_1_l2">
+        <Button
+                android:text="START"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/touch_1_b1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_gravity="bottom" android:layout_marginLeft="150dp" android:layout_marginRight="150dp"
+                android:layout_marginBottom="100dp" android:textSize="24sp"/>
+    </LinearLayout>
+</LinearLayout>

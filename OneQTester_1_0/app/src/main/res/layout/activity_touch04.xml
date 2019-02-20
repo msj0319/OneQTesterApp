@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/touch_4_l1">
+
+    <TextView
+            android:text="테스트 결과가 정상이였나요?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/touch_4_t1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textAlignment="center"
+            android:textSize="30sp" android:layout_marginTop="150dp"/>/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/touch_4_l2">
+        <Button
+                android:text="YES"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/touch_4_b1"
+                android:layout_gravity="bottom" android:layout_marginLeft="100dp"
+                android:layout_marginBottom="100dp" android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textSize="24sp"/>
+        <Button
+                android:text="NO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/touch_4_b2"
+                android:layout_gravity="bottom" android:layout_marginLeft="0dp"
+                android:layout_marginBottom="100dp" android:layout_weight="1"
+                android:layout_marginRight="100dp" android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="24sp"/>
+    </LinearLayout>
+</LinearLayout>

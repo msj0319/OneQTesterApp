@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:id="@+id/step4_5_l1"
+>
+
+    <TextView
+            android:text="테스트 결과가 정상이였나요"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/step4_5_t1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:layout_weight="0"
+            android:paddingRight="0dp" android:paddingTop="0dp" android:paddingLeft="0dp"
+            android:gravity="center_vertical|center_horizontal" android:layout_marginTop="150dp"
+            android:textSize="30sp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="0" android:id="@+id/step4_5_l2">
+        <Button
+                android:text="YES"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/step4_5_b1"
+                android:layout_gravity="bottom" android:layout_marginLeft="100dp"
+                android:layout_marginBottom="100dp" android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <Button
+                android:text="NO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/step4_5_b2"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="100dp" android:layout_weight="1"
+                android:layout_marginRight="100dp" android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="24sp"/>
+    </LinearLayout>
+</LinearLayout>
