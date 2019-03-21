@@ -3,8 +3,8 @@
 ## IDE : Android Studio / language :  Kotlin
 #### Activity 통합 개발 : 강지훈
 #### MIC/Speaker Test 구현 : 문승재
-#### Proximity sensor Test 구현 : 이시연
-#### Defective pixel Test 구현, Icon, UI Design : 이우진
+#### Proximity Sensor Test 구현 : 이시연
+#### Defective Pixel Test 구현, Icon, UI Design : 이우진
 --------------------------------------
 
 상명대학교 겨울 특별학기 임베디드소프트웨어 강좌에서 팀 프로젝트로 진행한 OneQ불량테스트 앱입니다.
